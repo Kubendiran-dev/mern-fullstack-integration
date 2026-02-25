@@ -1,0 +1,44 @@
+1.What is Fetch? (Interview answer — brief)
+fetch() is a built-in JavaScript function used to make HTTP requests to servers (GET, POST, PUT, DELETE) and handle responses using Promises.
+
+Process:
+
+Call fetch(url, options)
+
+Request sent to server
+
+Server returns response
+
+Convert response → response.json()
+
+Use data in UI / logic
+
+Example flow:
+
+fetch() → request → server → response → json() → use data
+
+
+2.What is Axios? (Interview answer — brief)
+Axios is a third-party HTTP client library used to make API requests from browser or Node.js. It is promise-based and easier than fetch for handling JSON and errors.
+
+Process:
+
+Call axios.get() / axios.post()
+
+Request sent to server
+
+
+
+
+
+
+
+
+
+Axios automatically converts response to JSON
+
+Access using response.data
+
+Example flow:
+
+axios → request → server → response → response.data → use data
