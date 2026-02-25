@@ -18,11 +18,11 @@ const App = () => {
 
   useEffect(() => {
     setData({
-      district_name: "Chennai",
-      departments_name: "Education Department",
-      subcatagory: "School Administration",
-      members_count: 120,
-      department_code: 1205
+      district_name: "Tiruppur",
+      departments_name: "Finance Department",
+      subcatagory: "Finance Administration",
+      members_count: 88,
+      department_code: 641602
     });
   }, []);
 
