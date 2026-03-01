@@ -29,6 +29,8 @@ const App = () => {
   const handleClick = async () => {
     try {
 
+      
+
       const fetchdata = await axios.post(
         "http://localhost:5000/api/department/add",
         data

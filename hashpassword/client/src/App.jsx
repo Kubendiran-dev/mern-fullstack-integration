@@ -36,6 +36,10 @@ const App = () => {
 
       setformData({ name: "", email: "", password: "" })
 
+
+
+
+
       setShowdata(res.data.addData)
 
     } catch (error) {
@@ -74,3 +78,6 @@ const App = () => {
 }
 
 export default App
+
+
+// <input type="text" name='name' placeholder='enter the name here' value={formData.name}  onChange={handleChnage} />
